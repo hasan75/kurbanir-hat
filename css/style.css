@@ -5,3 +5,13 @@
 .category img {
   width: 100px;
 }
+.kurbani-bg-success {
+  background-color: #316695;
+}
+span {
+  color: tomato;
+}
+.single-img-container:hover .eid {
+  transform: scale(1.2) rotate(360deg);
+  transition: ease-in 1.2s;
+}
