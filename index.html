@@ -13,9 +13,217 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Hello Kurbanir Hat</h1>
+    <!-- header part  -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="" width="159" height="41" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cows">Cows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#goat">Goat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#firm">Firm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- image slider  -->
+      <section class="container mt-5">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel rounded slide bg-gradient kurbani-banner-bg"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div
+                  class="
+                    ps-5
+                    pe-3
+                    col-lg-7
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <div>
+                    <h1>Eid Mubarak to All</h1>
+                    <p>
+                      In this Eid, You don't have to worry about buying your
+                      Kurbani Animal from Haat! We are here to ensure you a
+                      great Eid without fearing about Corona! We deliver the
+                      best quality of cows from all over the Bangladesh.
+                    </p>
+                    <h1>Start from $100</h1>
+                    <br />
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+                <div class="col-lg-5 pe-3">
+                  <img
+                    src="images/banner/eid_mubarak.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div
+                  class="
+                    ps-5
+                    pe-3
+                    col-lg-7
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <div>
+                    <h1>Cows Of Any Size</h1>
+                    <p>
+                      In this Eid, You don't have to worry about buying your
+                      Kurbani Animal from Haat! We are here to ensure you a
+                      great Eid without fearing about Corona! We deliver the
+                      best quality of cows from all over the Bangladesh.
+                    </p>
+                    <h1>Start from $100</h1>
+                    <br />
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+                <div class="col-lg-5 pe-3">
+                  <img
+                    src="images/banner/cowmiya.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div
+                  class="
+                    ps-5
+                    pe-3
+                    col-lg-7
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <div>
+                    <h1>Firm Foods for Cattle</h1>
+                    <p>
+                      We can provide you a fine quality and quantity of food for
+                      your cattle. You can buy all kind of food from us. Your
+                      satisfaction is our priority
+                    </p>
+                    <h1>$420</h1>
+                    <br />
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+                <div class="col-lg-5 pe-3">
+                  <img
+                    src="images/banner/cattle-food.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </header>
+    <!-- main part  -->
+    <main></main>
+    <!-- footer part  -->
+    <footer></footer>
     <!-- javascript  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
