@@ -15,3 +15,7 @@ span {
   transform: scale(1.2) rotate(360deg);
   transition: ease-in 1.2s;
 }
+.products .col .card:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s ease-in;
+}
