@@ -73,3 +73,10 @@ span {
 .c-caption {
   background-color: rgba(248, 246, 246, 0.445);
 }
+.bg-about-us {
+  background-color: #6aa359;
+}
+.members img {
+  height: 70px;
+  width: 70px;
+}
