@@ -60,6 +60,8 @@
                   <li><a class="dropdown-item" href="#goats">Goats</a></li>
                   <li><a class="dropdown-item" href="#camel">Camels</a></li>
                   <li><a class="dropdown-item" href="#dairy">Dairy</a></li>
+                  <li><a class="dropdown-item" href="#chicken">Chicken Products</a></li>
+                  <li><a class="dropdown-item" href="#processed-beef">Processed Beef</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -291,7 +293,6 @@
           role="alert"
           aria-live="assertive"
           aria-atomic="true"
-          data-autohide="false"
         >
           <div class="toast-header">
             <img
@@ -1051,8 +1052,8 @@
         </div>
       </section>
       <!-- food sections  -->
-      <section class="container products mt-5" id="dairy">
-        <h1 class="">Other Food</h1>
+      <section class="container products mt-5" id="chicken">
+        <h1 class="">Chicken Products</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card border-warning h-100 shadow-lg">
@@ -1154,8 +1155,8 @@
         </div>
       </section>
       <!-- beef cut section  -->
-      <section class="container products mt-5" id="dairy">
-        <h1 class="">Other Food</h1>
+      <section class="container products mt-5" id="processed-beef">
+        <h1 class="">Processed Beef</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card border-warning h-100 shadow-lg">
@@ -1266,11 +1267,56 @@
           </div>
         </div>
     </section>
+    <!-- subscribe section  -->
+      <!-- subcribe section  -->
+      <section id="Contact" style="height: 300px;" class="kurbani-bg-sub container d-flex justify-content-center align-items-center my-5 rounded-3">
+        <div>
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales, specials and more</p>
+          <input class="form-control" type="text" placeholder="Your Email">
+          <br>
+          <div class="d-flex justify-content-between">
+            <button class="btn btn-warning ">Submit</button>
+          <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#suggestion-Modal" data-bs-whatever="@mdo">Give Suggestion</button>
+          <!-- modal for suggestion button  -->
+          <div class="modal fade" id="suggestion-Modal" tabindex="-1" aria-labelledby="suggestionModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="suggestionModalLabel">Suggestion / Complain </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Subject:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Message:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+     </section>
       
     </main>
     <!-- footer part  -->
-    <footer>
-    
+    <footer class="bg-secondary p-3">
+    <div class="text-center">
+      <h3 class="text-white">Kurbanir Hat</h3>
+      <small>All Contents <span><i class="fas fa-copyright"></i> Hasan Ahmed 2021.</span></small>
+    </div>
     </footer>
     <!-- javascript  -->
     <script
