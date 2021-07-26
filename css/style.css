@@ -19,3 +19,47 @@ span {
   transform: scale(1.05);
   transition: transform 0.4s ease-in;
 }
+
+/* picture  */
+.eid-offer {
+  position: relative;
+}
+
+.eid-offer-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #3ee768;
+}
+
+.eid-offer:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: rgb(71, 71, 67);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* picture ends  */
+.c-caption {
+  background-color: rgba(248, 246, 246, 0.445);
+}
