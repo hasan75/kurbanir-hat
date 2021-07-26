@@ -2,6 +2,13 @@
   background-color: #89bd40;
   /* #8cdbb9 #89bd40 #6aa359 */
 }
+.kurbani-banner-btn {
+  color: white;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
+  background-image: linear-gradient(to bottom, #fff192 0%, #ffd400 100%);
+}
 .kurbani-bg-sub {
   background-color: #8cdbb9;
 }
